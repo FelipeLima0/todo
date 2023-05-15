@@ -62,7 +62,7 @@ function handleCheckboxChange(event: ChangeEvent<HTMLInputElement>) {
           required
         />
         <button>
-          <span>Criar</span>
+          <span>Novo</span>
           <GrAddCircle />
         </button>
       </form>
