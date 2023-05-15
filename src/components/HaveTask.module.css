@@ -1,0 +1,46 @@
+.contHave {
+    width: 40rem;
+    margin: auto;
+    margin-top: 1rem;
+    background: var(--gray-500);
+    border-radius: 8px;
+    border: 1px solid var(--gray-600);
+}
+
+.contHave input {
+    position: relative;
+    left: .8rem;
+    top: .6rem;
+}
+
+input:checked+ p {
+    text-decoration: line-through;
+    
+    
+}
+
+.contHave p {
+    position: relative;
+    left: 2rem;
+    top: -.7rem;
+    color: var(--gray-100);
+    max-width: 35rem;
+    word-break: break-all;
+    
+}
+
+.contHave form {
+    display: flex;
+    min-height: 3.5rem;
+    justify-content: space-between;
+}
+
+
+
+
+.icon {
+    color: var(--gray-100);
+    position: relative;
+    right: .7rem;
+    top: 1rem;
+}

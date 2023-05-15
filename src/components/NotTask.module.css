@@ -1,0 +1,25 @@
+.contNot {
+    position: relative;
+    top: 1rem;
+    border-top: 2px solid var(--gray-400);
+    width: 38rem;
+    margin: auto;
+    height: 15rem;
+    text-align: center;
+}
+
+.contNot div {
+    position: relative;
+    top: 4rem;
+}
+
+.contNot img {
+    position: relative;
+    bottom: .4rem;
+    
+}
+
+.contNot p {
+    color: var(--gray-300);
+    padding: .2rem;
+}
